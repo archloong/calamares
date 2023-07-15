@@ -56,6 +56,7 @@ HostInfoTests::testHostOS()
     // answer is.
     QStringList x86cpunames { QStringLiteral( "Intel" ), QStringLiteral( "AMD" ) };
     QStringList armcpunames { QStringLiteral( "ARM" ) };
+    QStringList loongcpunames { QStringLiteral( "loongarch" ) };
     const QString cpu = hostCPU();
     QVERIFY( x86cpunames.contains( cpu ) || armcpunames.contains( cpu ) );
 
@@ -71,6 +72,10 @@ HostInfoTests::testHostOS()
         else if ( cpumodalias.contains( "type:aarch64" ) )
         {
             QVERIFY( armcpunames.contains( cpu ) );
+        }
+        else if ( cpumodalias.contains( "type:loongarch" ) )
+        {
+            QVERIFY( loongcpunames.contains( cpu ) );
         }
         else
         {
