@@ -47,12 +47,12 @@ Config::swapChoiceNames()
     // *INDENT-OFF*
     // clang-format off
     static const NamedEnumTable< SwapChoice > names {
-                                                      { QStringLiteral( "none" ), SwapChoice::NoSwap },
-                                                      { QStringLiteral( "small" ), SwapChoice::SmallSwap },
-                                                      { QStringLiteral( "suspend" ), SwapChoice::FullSwap },
-                                                      { QStringLiteral( "reuse" ), SwapChoice::ReuseSwap },
-                                                      { QStringLiteral( "file" ), SwapChoice::SwapFile },
-                                                      };
+        { QStringLiteral( "none" ), SwapChoice::NoSwap },
+        { QStringLiteral( "small" ), SwapChoice::SmallSwap },
+        { QStringLiteral( "suspend" ), SwapChoice::FullSwap },
+        { QStringLiteral( "reuse" ), SwapChoice::ReuseSwap },
+        { QStringLiteral( "file" ), SwapChoice::SwapFile },
+    };
     // clang-format on
     // *INDENT-ON*
 
@@ -65,10 +65,10 @@ Config::luksGenerationNames()
     // *INDENT-OFF*
     // clang-format off
     static const NamedEnumTable< LuksGeneration > names {
-                                                          { QStringLiteral( "luks1" ), LuksGeneration::Luks1 },
-                                                          { QStringLiteral( "luks" ), LuksGeneration::Luks1 },
-                                                          { QStringLiteral( "luks2" ), LuksGeneration::Luks2 },
-                                                          };
+        { QStringLiteral( "luks1" ), LuksGeneration::Luks1 },
+        { QStringLiteral( "luks" ), LuksGeneration::Luks1 },
+        { QStringLiteral( "luks2" ), LuksGeneration::Luks2 },
+    };
     // clang-format on
     // *INDENT-ON*
 
