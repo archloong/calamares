@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Mingcong Bai <jeffbai@aosc.xyz>, 2017
 # plantman <weihanlin@live.com>, 2017
@@ -15,7 +15,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-12 21:37+0100\n"
 "PO-Revision-Date: 2017-08-09 10:34+0000\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: src/modules/bootloader/main.py:46
+#: src/modules/bootloader/main.py:46 src/modules/windowsbootentry/main.py:27
 msgid "Install bootloader."
 msgstr "安装启动加载器。"
 
@@ -41,8 +41,8 @@ msgstr "启动加载器安装出错"
 
 #: src/modules/bootloader/main.py:927
 msgid ""
-"The bootloader could not be installed. The installation command "
-"<pre>{!s}</pre> returned error code {!s}."
+"The bootloader could not be installed. The installation command <pre>{!s}</"
+"pre> returned error code {!s}."
 msgstr "无法安装启动加载器。安装命令<pre>{!s}</pre>返回错误代码 {!s}。"
 
 #: src/modules/displaymanager/main.py:509
@@ -85,7 +85,8 @@ msgstr "显示管理器模块中未选择显示管理器。"
 msgid ""
 "The displaymanagers list is empty or undefined in both globalstorage and "
 "displaymanager.conf."
-msgstr "globalstorage 和 displaymanager.conf 配置文件中都没有配置显示管理器。"
+msgstr ""
+"globalstorage 和 displaymanager.conf 中的 displaymanagers 列表为空或未定义。"
 
 #: src/modules/displaymanager/main.py:1026
 msgid "Display manager configuration was incomplete"
@@ -137,7 +138,7 @@ msgstr "没有分配分区给 <pre>{!s}</pre>。"
 #: src/modules/localecfg/main.py:141 src/modules/networkcfg/main.py:107
 #: src/modules/openrcdmcryptcfg/main.py:77
 msgid "No root mount point is given for <pre>{!s}</pre> to use."
-msgstr " 未设置 <pre>{!s}</pre> 要使用的根挂载点。"
+msgstr "未设置 <pre>{!s}</pre> 要使用的根挂载点。"
 
 #: src/modules/fstab/main.py:413
 msgid "No <pre>{!s}</pre> configuration is given for <pre>{!s}</pre> to use."
@@ -187,19 +188,19 @@ msgstr "退出码是 {}"
 msgid "Mounting partitions."
 msgstr "挂载分区。"
 
-#: src/modules/mount/main.py:164 src/modules/mount/main.py:200
+#: src/modules/mount/main.py:171 src/modules/mount/main.py:207
 msgid "Internal error mounting zfs datasets"
 msgstr "装载 zfs 数据集时出现内部错误"
 
-#: src/modules/mount/main.py:176
+#: src/modules/mount/main.py:183
 msgid "Failed to import zpool"
 msgstr "导入 zpool 失败"
 
-#: src/modules/mount/main.py:192
+#: src/modules/mount/main.py:199
 msgid "Failed to unlock zpool"
 msgstr "解锁 zpool 失败"
 
-#: src/modules/mount/main.py:209 src/modules/mount/main.py:214
+#: src/modules/mount/main.py:216 src/modules/mount/main.py:221
 msgid "Failed to set zfs mountpoint"
 msgstr "设置 zfs 挂载点失败"
 
@@ -215,23 +216,23 @@ msgstr "正在保存网络配置。"
 msgid "Configuring OpenRC dmcrypt service."
 msgstr "配置 OpenRC dmcrypt 服务。"
 
-#: src/modules/packages/main.py:54 src/modules/packages/main.py:65
-#: src/modules/packages/main.py:75
+#: src/modules/packages/main.py:55 src/modules/packages/main.py:66
+#: src/modules/packages/main.py:76
 msgid "Install packages."
 msgstr "安装软件包。"
 
-#: src/modules/packages/main.py:63
+#: src/modules/packages/main.py:64
 #, python-format
 msgid "Processing packages (%(count)d / %(total)d)"
 msgstr "软件包处理中（%(count)d/%(total)d）"
 
-#: src/modules/packages/main.py:68
+#: src/modules/packages/main.py:69
 #, python-format
 msgid "Installing one package."
 msgid_plural "Installing %(num)d packages."
 msgstr[0] "安装%(num)d软件包。"
 
-#: src/modules/packages/main.py:71
+#: src/modules/packages/main.py:72
 #, python-format
 msgid "Removing one package."
 msgid_plural "Removing %(num)d packages."
@@ -250,15 +251,20 @@ msgstr "软件包管理器无法准备更新。命令<pre>{!s}</pre>返回错误
 
 #: src/modules/packages/main.py:753
 msgid ""
-"The package manager could not update the system. The command <pre>{!s}</pre>"
-" returned error code {!s}."
+"The package manager could not update the system. The command <pre>{!s}</pre> "
+"returned error code {!s}."
 msgstr "软件包管理器无法更新系统。命令<pre>{!s}</pre>返回错误代码{!s}。"
 
 #: src/modules/packages/main.py:781
 msgid ""
 "The package manager could not make changes to the installed system. The "
 "command <pre>{!s}</pre> returned error code {!s}."
-msgstr "软件包管理器无法对已安装的系统进行更改。命令<pre>{!s}</pre>返回错误代码{!s}。"
+msgstr ""
+"软件包管理器无法对已安装的系统进行更改。命令<pre>{!s}</pre>返回错误代码{!s}。"
+
+#: src/modules/pacstrap/main.py:36
+msgid "Install base system"
+msgstr "安装基础系统"
 
 #: src/modules/plymouthcfg/main.py:27
 msgid "Configure Plymouth theme"
@@ -270,7 +276,7 @@ msgstr "安装数据."
 
 #: src/modules/services-openrc/main.py:29
 msgid "Configure OpenRC services"
-msgstr "配置 OpenRC 服务。"
+msgstr "配置 OpenRC 服务"
 
 #: src/modules/services-openrc/main.py:57
 msgid "Cannot add service {name!s} to run-level {level!s}."
@@ -284,7 +290,8 @@ msgstr "无法从 {level!s} 运行级别中删除服务 {name!s}。"
 msgid ""
 "Unknown service-action <code>{arg!s}</code> for service {name!s} in run-"
 "level {level!s}."
-msgstr "未知的服务动作 <code>{arg!s}</code>，服务名: {name!s}，运行级别: {level!s}."
+msgstr ""
+"未知的服务动作 <code>{arg!s}</code>，服务名: {name!s}，运行级别: {level!s}."
 
 #: src/modules/services-openrc/main.py:93
 msgid "Cannot modify service"
@@ -297,7 +304,7 @@ msgstr "chroot 中运行的 <code>rc-update {arg!s}</code> 返回错误 {num!s}.
 
 #: src/modules/services-openrc/main.py:101
 msgid "Target runlevel does not exist"
-msgstr "目标运行级别不存在。"
+msgstr "目标运行级别不存在"
 
 #: src/modules/services-openrc/main.py:102
 msgid ""
@@ -311,8 +318,7 @@ msgstr "目标服务不存在"
 
 #: src/modules/services-openrc/main.py:111
 msgid ""
-"The path for service {name!s} is <code>{path!s}</code>, which does not "
-"exist."
+"The path for service {name!s} is <code>{path!s}</code>, which does not exist."
 msgstr "服务 {name!s} 的路径 <code>{path!s}</code> 不存在。"
 
 #: src/modules/services-systemd/main.py:26

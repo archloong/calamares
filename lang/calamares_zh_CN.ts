@@ -33,6 +33,34 @@
       <comment>@status</comment>
       <translation>管理自动挂载设置…</translation>
     </message>
+    </context>
+    <context>
+    <name>BIOS</name>
+    <message>
+      <location filename="../src/modules/packagechooserq/BIOS.qml" line="39"/>
+      <source>Please select a &lt;strong&gt;bootloader&lt;/strong&gt; option for your install, or leave the already selected default option, &lt;strong&gt;GRUB&lt;/strong&gt;.</source>
+      <translation type="unfinished"></translation>
+    </message>
+    <message>
+      <location filename="../src/modules/packagechooserq/BIOS.qml" line="57"/>
+      <source>&lt;strong&gt;Grub Bootloader&lt;/strong&gt;&lt;br&gt;&lt;br&gt;The GRand Unified Bootloader is the reference implementation&lt;br&gt;of the Free Software Foundation&apos;s Multiboot Specification,&lt;br&gt;which provides a user the choice&lt;br&gt;to boot one of multiple operating systems installed on a computer.</source>
+      <translation type="unfinished"></translation>
+    </message>
+    <message>
+      <location filename="../src/modules/packagechooserq/BIOS.qml" line="71"/>
+      <source>GRUB</source>
+      <translation type="unfinished"></translation>
+    </message>
+    <message>
+      <location filename="../src/modules/packagechooserq/BIOS.qml" line="116"/>
+      <source>&lt;strong&gt;No Bootloader&lt;/strong&gt;&lt;br&gt;&lt;br&gt;Selecting no bootloader might result in an &lt;strong&gt;un-bootable system&lt;/strong&gt;,&lt;br&gt;If you don&apos;t already have a bootloader that you can add this install to.</source>
+      <translation type="unfinished"></translation>
+    </message>
+    <message>
+      <location filename="../src/modules/packagechooserq/BIOS.qml" line="130"/>
+      <source>No bootloader</source>
+      <translation type="unfinished"></translation>
+    </message>
   </context>
   <context>
     <name>BootInfoWidget</name>
@@ -1228,25 +1256,25 @@ The installer will quit and all changes will be lost.</source>
       <translation>文件系统卷标</translation>
     </message>
     <message>
-      <location filename="../src/modules/partition/gui/CreatePartitionDialog.cpp" line="67"/>
+      <location filename="../src/modules/partition/gui/CreatePartitionDialog.cpp" line="66"/>
       <source>En&amp;crypt</source>
       <comment>@action</comment>
       <translation>加密(&amp;C)</translation>
     </message>
     <message>
-      <location filename="../src/modules/partition/gui/CreatePartitionDialog.cpp" line="195"/>
+      <location filename="../src/modules/partition/gui/CreatePartitionDialog.cpp" line="194"/>
       <source>Logical</source>
       <comment>@label</comment>
       <translation>逻辑分区</translation>
     </message>
     <message>
-      <location filename="../src/modules/partition/gui/CreatePartitionDialog.cpp" line="200"/>
+      <location filename="../src/modules/partition/gui/CreatePartitionDialog.cpp" line="199"/>
       <source>Primary</source>
       <comment>@label</comment>
       <translation>主分区</translation>
     </message>
     <message>
-      <location filename="../src/modules/partition/gui/CreatePartitionDialog.cpp" line="219"/>
+      <location filename="../src/modules/partition/gui/CreatePartitionDialog.cpp" line="218"/>
       <source>GPT</source>
       <comment>@label</comment>
       <translation>GPT</translation>
@@ -1313,6 +1341,7 @@ The installer will quit and all changes will be lost.</source>
       <location filename="../src/modules/partition/jobs/CreatePartitionJob.cpp" line="274"/>
       <source>The installer failed to create partition on disk '%1'.</source>
       <comment>@info</comment>
+=======
       <translation>安装程序在磁盘“%1”创建分区失败。</translation>
     </message>
   </context>
@@ -1429,8 +1458,8 @@ The installer will quit and all changes will be lost.</source>
     </message>
     <message>
       <location filename="../src/modules/partition/jobs/CreateVolumeGroupJob.cpp" line="51"/>
-      <source>The installer failed to create a volume group named '%1'.</source>
-      <translation>安装器未能创建名为'%1'的分卷组</translation>
+      <source>The installer failed to create a volume group named &apos;%1&apos;.</source>
+      <translation>安装器未能创建名为&apos;%1&apos;的分卷组</translation>
     </message>
   </context>
   <context>
@@ -1451,7 +1480,7 @@ The installer will quit and all changes will be lost.</source>
     <message>
       <location filename="../src/modules/partition/jobs/DeactivateVolumeGroupJob.cpp" line="46"/>
       <source>The installer failed to deactivate a volume group named %1.</source>
-      <translation>安装器未能创建名为'%1'的分卷组</translation>
+      <translation>安装器未能创建名为&apos;%1&apos;的分卷组</translation>
     </message>
   </context>
   <context>
@@ -1539,7 +1568,7 @@ The installer will quit and all changes will be lost.</source>
       <translation>Dracut 的 "/" 分区未加密，正在跳过写入 LUKS 配置</translation>
     </message>
     <message>
-      <location filename="../src/modules/dracutlukscfg/DracutLuksCfgJob.cpp" line="138"/>
+      <location filename="../src/modules/dracutlukscfg/DracutLuksCfgJob.cpp" line="148"/>
       <source>Failed to open %1</source>
       <comment>@error</comment>
       <translation>无法打开 %1</translation>
@@ -1919,42 +1948,42 @@ The installer will quit and all changes will be lost.</source>
     <message>
       <location filename="../src/modules/welcome/checker/GeneralRequirements.cpp" line="227"/>
       <source>is always false</source>
-      <translation type="unfinished"/>
+      <translation type="unfinished"></translation>
     </message>
     <message>
       <location filename="../src/modules/welcome/checker/GeneralRequirements.cpp" line="228"/>
       <source>The computer says no.</source>
-      <translation type="unfinished"/>
+      <translation type="unfinished"></translation>
     </message>
     <message>
       <location filename="../src/modules/welcome/checker/GeneralRequirements.cpp" line="236"/>
       <source>is always false (slowly)</source>
-      <translation type="unfinished"/>
+      <translation type="unfinished"></translation>
     </message>
     <message>
       <location filename="../src/modules/welcome/checker/GeneralRequirements.cpp" line="237"/>
       <source>The computer says no (slowly).</source>
-      <translation type="unfinished"/>
+      <translation type="unfinished"></translation>
     </message>
     <message>
       <location filename="../src/modules/welcome/checker/GeneralRequirements.cpp" line="244"/>
       <source>is always true</source>
-      <translation type="unfinished"/>
+      <translation type="unfinished"></translation>
     </message>
     <message>
       <location filename="../src/modules/welcome/checker/GeneralRequirements.cpp" line="245"/>
       <source>The computer says yes.</source>
-      <translation type="unfinished"/>
+      <translation type="unfinished"></translation>
     </message>
     <message>
       <location filename="../src/modules/welcome/checker/GeneralRequirements.cpp" line="253"/>
       <source>is always true (slowly)</source>
-      <translation type="unfinished"/>
+      <translation type="unfinished"></translation>
     </message>
     <message>
       <location filename="../src/modules/welcome/checker/GeneralRequirements.cpp" line="254"/>
       <source>The computer says yes (slowly).</source>
-      <translation type="unfinished"/>
+      <translation type="unfinished"></translation>
     </message>
     <message>
       <location filename="../src/modules/welcome/checker/GeneralRequirements.cpp" line="262"/>
@@ -2192,7 +2221,7 @@ The installer will quit and all changes will be lost.</source>
       <source>&lt;strong&gt;%1 graphics driver&lt;/strong&gt;&lt;br/&gt;&lt;font color="Grey"&gt;by %2&lt;/font&gt;</source>
       <comment>@label, %1 is product name, %2 is product vendor</comment>
       <extracomment>%1 is usually a vendor name, example: Nvidia graphics driver</extracomment>
-      <translation>&lt;strong&gt;%1 显卡驱动程序&lt;/strong&gt;&lt;br/&gt;&lt;font color="Grey"&gt;由 %2 提供&lt;/font&gt;</translation>
+      <translation>&lt;strong&gt;%1 显卡驱动程序&lt;/strong&gt;&lt;br/&gt;&lt;font color=&quot;Grey&quot;&gt;由 %2 提供&lt;/font&gt;</translation>
     </message>
     <message>
       <location filename="../src/modules/license/LicenseWidget.cpp" line="122"/>
@@ -2704,7 +2733,7 @@ The installer will quit and all changes will be lost.</source>
       <location filename="../src/modules/users/CheckPWQuality.cpp" line="233"/>
       <source>The password contains fewer than %n lowercase letters</source>
       <translation>
-        <numerusform>密码包含的小写字母少于 %n 个</numerusform>
+          <numerusform>密码包含的小写字母少于 %n 个</numerusform>
       </translation>
     </message>
     <message>
@@ -2716,7 +2745,7 @@ The installer will quit and all changes will be lost.</source>
       <location filename="../src/modules/users/CheckPWQuality.cpp" line="240"/>
       <source>The password contains fewer than %n non-alphanumeric characters</source>
       <translation>
-        <numerusform>密码包含的非字母数字字符少于 %n 个</numerusform>
+          <numerusform>密码包含的非字母数字字符少于 %n 个</numerusform>
       </translation>
     </message>
     <message>
@@ -2728,7 +2757,7 @@ The installer will quit and all changes will be lost.</source>
       <location filename="../src/modules/users/CheckPWQuality.cpp" line="247"/>
       <source>The password is shorter than %n characters</source>
       <translation>
-        <numerusform>密码少于 %n 个字符</numerusform>
+          <numerusform>密码少于 %n 个字符</numerusform>
       </translation>
     </message>
     <message>
@@ -2745,7 +2774,7 @@ The installer will quit and all changes will be lost.</source>
       <location filename="../src/modules/users/CheckPWQuality.cpp" line="256"/>
       <source>The password contains fewer than %n character classes</source>
       <translation>
-        <numerusform>新密码包含字符类型少于 %n 个</numerusform>
+          <numerusform>新密码包含字符类型少于 %n 个</numerusform>
       </translation>
     </message>
     <message>
@@ -2757,7 +2786,7 @@ The installer will quit and all changes will be lost.</source>
       <location filename="../src/modules/users/CheckPWQuality.cpp" line="263"/>
       <source>The password contains more than %n same characters consecutively</source>
       <translation>
-        <numerusform>新密码包含超过 %n 个连续的相同字符</numerusform>
+          <numerusform>新密码包含超过 %n 个连续的相同字符</numerusform>
       </translation>
     </message>
     <message>
@@ -2769,7 +2798,7 @@ The installer will quit and all changes will be lost.</source>
       <location filename="../src/modules/users/CheckPWQuality.cpp" line="270"/>
       <source>The password contains more than %n characters of the same class consecutively</source>
       <translation>
-        <numerusform>新密码包含超过 %n 个连续的同类型字符</numerusform>
+          <numerusform>新密码包含超过 %n 个连续的同类型字符</numerusform>
       </translation>
     </message>
     <message>
@@ -2781,7 +2810,7 @@ The installer will quit and all changes will be lost.</source>
       <location filename="../src/modules/users/CheckPWQuality.cpp" line="281"/>
       <source>The password contains monotonic sequence longer than %n characters</source>
       <translation>
-        <numerusform>新密码包含超过 %n 个字符长度的单调序列</numerusform>
+          <numerusform>新密码包含超过 %n 个字符长度的单调序列</numerusform>
       </translation>
     </message>
     <message>
@@ -3583,9 +3612,9 @@ Output:
     <message>
       <location filename="../src/modules/welcomeq/Recommended.qml" line="40"/>
       <source>&lt;p&gt;This computer does not satisfy some of the recommended requirements for setting up %1.&lt;br/&gt;
-        Setup can continue, but some features might be disabled.&lt;/p&gt;</source>
+      Setup can continue, but some features might be disabled.&lt;/p&gt;</source>
       <translation>&lt;p&gt;此计算机不满足安装 %1 的某些推荐配置。&lt;br/&gt;
-        安装可以继续，但是一些特性可能被禁用。&lt;/p&gt;</translation>
+      安装可以继续，但是一些特性可能被禁用。&lt;/p&gt;</translation>
     </message>
   </context>
   <context>
@@ -3614,8 +3643,8 @@ Output:
     </message>
     <message>
       <location filename="../src/modules/partition/jobs/RemoveVolumeGroupJob.cpp" line="46"/>
-      <source>The installer failed to remove a volume group named '%1'.</source>
-      <translation>安装器无法移除分卷组 '%1'。</translation>
+      <source>The installer failed to remove a volume group named &apos;%1&apos;.</source>
+      <translation>安装器无法移除分卷组 &apos;%1&apos;。</translation>
     </message>
   </context>
   <context>
@@ -3623,14 +3652,14 @@ Output:
     <message>
       <location filename="../src/modules/welcomeq/Requirements.qml" line="37"/>
       <source>&lt;p&gt;This computer does not satisfy the minimum requirements for installing %1.&lt;br/&gt;
-        Installation cannot continue.&lt;/p&gt;</source>
+      Installation cannot continue.&lt;/p&gt;</source>
       <translation>&lt;p&gt;此计算机不满足安装 %1 的最低配置。&lt;br/&gt;
-        安装无法继续。&lt;/p&gt;</translation>
+      安装无法继续。&lt;/p&gt;</translation>
     </message>
     <message>
       <location filename="../src/modules/welcomeq/Requirements.qml" line="39"/>
       <source>&lt;p&gt;This computer does not satisfy some of the recommended requirements for setting up %1.&lt;br/&gt;
-        Setup can continue, but some features might be disabled.&lt;/p&gt;</source>
+      Setup can continue, but some features might be disabled.&lt;/p&gt;</source>
       <translation>&lt;p&gt;此计算机不满足安装 %1 的某些推荐配置。&lt;br/&gt;
         初始化可以继续，但是一些特性可能被禁用。&lt;/p&gt;</translation>
     </message>
@@ -4238,13 +4267,13 @@ Output:
     </message>
     <message>
       <location filename="../src/modules/tracking/page_trackingstep.ui" line="76"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Click here to send &lt;span style=" font-weight:600;"&gt;no information at all&lt;/span&gt; about your installation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;单击此处 &lt;span style=" font-weight:600;"&gt;不发送任何&lt;/span&gt; 有关安装的信息。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Click here to send &lt;span style=&quot; font-weight:600;&quot;&gt;no information at all&lt;/span&gt; about your installation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;单击此处 &lt;span style=&quot; font-weight:600;&quot;&gt;不发送任何&lt;/span&gt; 有关安装的信息。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../src/modules/tracking/page_trackingstep.ui" line="275"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href="placeholder"&gt;&lt;span style=" text-decoration: underline; color:#2980b9;"&gt;Click here for more information about user feedback&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href="placeholder"&gt;&lt;span style=" text-decoration: underline; color:#2980b9;"&gt;点击此处以获取关于用户反馈的详细信息&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;placeholder&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;Click here for more information about user feedback&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;placeholder&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;点击此处以获取关于用户反馈的详细信息&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../src/modules/tracking/TrackingPage.cpp" line="95"/>
@@ -4274,6 +4303,44 @@ Output:
       <source>Feedback</source>
       <comment>@title</comment>
       <translation>反馈</translation>
+    </message>
+  </context>
+  <context>
+    <name>UEFI</name>
+    <message>
+      <location filename="../src/modules/packagechooserq/UEFI.qml" line="35"/>
+      <source>Please select a &lt;strong&gt;bootloader&lt;/strong&gt; option for your install, or leave the already selected default option, &lt;strong&gt;Grub Bootloader&lt;/strong&gt;.</source>
+      <translation>请为您的安装选择一个&lt;strong&gt;引导加载程序&lt;/strong&gt;选项，或保留已选择的默认选项&lt;strong&gt;Grub Bootloader&lt;/strong&gt;。</translation>
+    </message>
+    <message>
+      <location filename="../src/modules/packagechooserq/UEFI.qml" line="53"/>
+      <source>&lt;strong&gt;Systemd-boot&lt;/strong&gt;&lt;br&gt;&lt;br&gt;provides a simple experience&lt;br&gt;which will work for most circumstances..</source>
+      <translation>&lt;strong&gt;Systemd-boot&lt;/strong&gt;&lt;br&gt;&lt;br&gt;提供简单的体验&lt;br&gt;适用于大多数情况。</translation>
+    </message>
+    <message>
+      <location filename="../src/modules/packagechooserq/UEFI.qml" line="67"/>
+      <source>Systemd-boot</source>
+      <translation>Systemd-boot</translation>
+    </message>
+    <message>
+      <location filename="../src/modules/packagechooserq/UEFI.qml" line="112"/>
+      <source>&lt;strong&gt;Grub Bootloader&lt;/strong&gt;&lt;br&gt;&lt;br&gt;A longstanding bootloader for Linux.&lt;br&gt;It is the best choice for individuals wanting to boot off of btrfs snapshots,&lt;br&gt;or need to use a smaller EFI partition.</source>
+      <translation>&lt;strong&gt;Grub Bootloader&lt;/strong&gt;&lt;br&gt;&lt;br&gt;Linux 的长期引导加载程序。&lt;br&gt;对于想要从 btrfs 快照启动或需要使用较小的 EFI 分区的个人来说，这是最佳选择 。</translation>
+    </message>
+    <message>
+      <location filename="../src/modules/packagechooserq/UEFI.qml" line="126"/>
+      <source>Grub</source>
+      <translation>Grub</translation>
+    </message>
+    <message>
+      <location filename="../src/modules/packagechooserq/UEFI.qml" line="172"/>
+      <source>&lt;strong&gt;No Bootloader&lt;/strong&gt;&lt;br&gt;&lt;br&gt;Selecting no bootloader might result in an &lt;strong&gt;un-bootable system&lt;/strong&gt;,&lt;br&gt;If you don&apos;t already have a bootloader that you can add this install to.</source>
+      <translation>&lt;strong&gt;无引导加载程序&lt;/strong&gt;&lt;br&gt;&lt;br&gt;选择无引导加载程序可能会导致&lt;strong&gt;系统无法启动&lt;/strong&gt;，&lt;br&gt;如果您还没有可以添加的引导加载程序 这个安装到.</translation>
+    </message>
+    <message>
+      <location filename="../src/modules/packagechooserq/UEFI.qml" line="186"/>
+      <source>No bootloader</source>
+      <translation>无引导加载程序</translation>
     </message>
   </context>
   <context>
@@ -4569,9 +4636,9 @@ Output:
     <message>
       <location filename="../src/modules/finishedq/finishedq.qml" line="43"/>
       <source>%1 has been installed on your computer.&lt;br/&gt;
-            You may now restart into your new system, or continue using the Live environment.</source>
+          You may now restart into your new system, or continue using the Live environment.</source>
       <translation>%1 已安装在您的电脑上了。&lt;br/&gt;
-         您现在可以重新启动到新系统，或是继续使用 Live 环境。</translation>
+       您现在可以重新启动到新系统，或是继续使用 Live 环境。</translation>
     </message>
     <message>
       <location filename="../src/modules/finishedq/finishedq.qml" line="65"/>
@@ -4586,7 +4653,7 @@ Output:
     <message>
       <location filename="../src/modules/finishedq/finishedq.qml" line="89"/>
       <source>&lt;p&gt;A full log of the install is available as installation.log in the home directory of the Live user.&lt;br/&gt;
-            This log is copied to /var/log/installation.log of the target system.&lt;/p&gt;</source>
+          This log is copied to /var/log/installation.log of the target system.&lt;/p&gt;</source>
       <translation>安装过程中的翻译已经复制到了临时用户的家目录下
 于此同时安装日志也已经复制到了目标系统，路径为：/var/log/installation.log</translation>
     </message>
@@ -4780,7 +4847,7 @@ Output:
     <message>
       <location filename="../src/modules/notesqml/notesqml.qml" line="50"/>
       <source>&lt;h3&gt;%1&lt;/h3&gt;
-            &lt;p&gt;These are example release notes.&lt;/p&gt;</source>
+          &lt;p&gt;These are example release notes.&lt;/p&gt;</source>
       <translation>&lt;h3&gt;%1&lt;/h3&gt;
 &lt;p&gt;这些是发布日志样例&lt;/p&gt;</translation>
     </message>
