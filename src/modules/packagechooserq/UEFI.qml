@@ -32,7 +32,7 @@ Column {
         Text {
             height: 25
             anchors.centerIn: parent
-            text: qsTr("Please select a <strong>bootloader</strong> option for your install, or leave the already selected default option, <strong>Systemd-boot</strong>.")
+            text: qsTr("Please select a <strong>bootloader</strong> option for your install, or leave the already selected default option, <strong>Grub Bootloader</strong>.")
             font.pointSize: 11
             color: "#ffffff"
             wrapMode: Text.WordWrap
@@ -50,7 +50,7 @@ Column {
             width: 600
             height: 90
             anchors.centerIn: parent
-            text: qsTr("<strong>Systemd-boot</strong><br><br>provides a simple experience<br>which will work for most circumstances.<br>This is the default option for <strong>EndeavourOS</strong>.")
+            text: qsTr("<strong>Systemd-boot</strong><br><br>provides a simple experience<br>which will work for most circumstances..")
             font.pointSize: 10
             color: "#ffffff"
             anchors.verticalCenterOffset: 0
