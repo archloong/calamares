@@ -1341,7 +1341,6 @@ The installer will quit and all changes will be lost.</source>
       <location filename="../src/modules/partition/jobs/CreatePartitionJob.cpp" line="274"/>
       <source>The installer failed to create partition on disk '%1'.</source>
       <comment>@info</comment>
-=======
       <translation>安装程序在磁盘“%1”创建分区失败。</translation>
     </message>
   </context>
