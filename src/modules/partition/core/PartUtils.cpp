@@ -120,7 +120,6 @@ canBeReplaced( Partition* candidate, const Logger::Once& o )
     }
 }
 
-
 bool
 canBeResized( Partition* candidate, const Logger::Once& o )
 {
@@ -200,7 +199,6 @@ canBeResized( Partition* candidate, const Logger::Once& o )
     }
 }
 
-
 bool
 canBeResized( DeviceModel* dm, const QString& partitionPath, const Logger::Once& o )
 {
@@ -224,7 +222,6 @@ canBeResized( DeviceModel* dm, const QString& partitionPath, const Logger::Once&
         return false;
     }
 }
-
 
 static FstabEntryList
 lookForFstabEntries( const QString& partitionPath )
@@ -277,7 +274,6 @@ lookForFstabEntries( const QString& partitionPath )
         return {};
     }
 }
-
 
 static QString
 findPartitionPathForMountPoint( const FstabEntryList& fstab, const QString& mountPoint )
@@ -353,7 +349,6 @@ findPartitionPathForMountPoint( const FstabEntryList& fstab, const QString& moun
 
     return QString();
 }
-
 
 OsproberEntryList
 runOsprober( DeviceModel* dm )
@@ -557,7 +552,6 @@ efiFilesystemRecommendedSize()
     }
     return uefisys_part_sizeB;
 }
-
 
 QString
 efiFilesystemMinimumSizeGSKey()
